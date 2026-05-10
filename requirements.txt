@@ -1,0 +1,13 @@
+langchain
+langgraph
+langchain-google-genai
+langchain-community
+langchain-ollama
+google-generativeai
+duckduckgo-search
+ddgs
+streamlit
+python-dotenv
+requests
+fastapi
+uvicorn
