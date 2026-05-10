@@ -146,7 +146,7 @@ This directly solves the hallucination problem in standard LLMs — the agent re
 
 ---
 
-## 🔗 Related Projects
+##  Related Projects
 
 | Project | Description | Live |
 |---------|-------------|------|
@@ -155,7 +155,7 @@ This directly solves the hallucination problem in standard LLMs — the agent re
 
 ---
 
-## 👤 Author
+##  Author
 
 **Rohith Kumar Reddipogula**
 MSc Data Science — University of Europe for Applied Sciences, Berlin
