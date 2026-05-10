@@ -3,7 +3,6 @@ title: AI Agent React
 sdk: streamlit
 sdk_version: "1.32.0"
 app_file: app.py
-pinned: false
 ---
 
 <h1 align="center"> AI Agent — ReAct System</h1>
