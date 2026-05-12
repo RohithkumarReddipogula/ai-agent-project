@@ -140,6 +140,24 @@ This directly solves the hallucination problem in standard LLMs — the agent re
 - **LLM switching** — same code runs with Ollama locally and Gemini in cloud
 - **Production deployment** — Docker + Streamlit + HF Spaces full pipeline
 
+## Evaluation Results
+
+Automated evaluation across 5 test cases measuring answer accuracy
+and tool selection correctness.
+
+Run locally:
+    python evaluate_agent.py
+
+| Test | Question | Tool Used | Result |
+|------|----------|-----------|--------|
+| 1 | What is 144 ÷ 12 × 7? | Calculator | Correct — 84 |
+| 2 | What does RAG stand for? | Web Search | Correct |
+| 3 | What is 256 ÷ 16? | Calculator | Correct — 16 |
+| 4 | What is LangGraph used for? | Web Search | Correct |
+| 5 | What is semantic search? | Web Search | Correct |
+
+**Score: 5/5 tests passed — 100% accuracy**
+
 ---
 
 ##  Related Projects
